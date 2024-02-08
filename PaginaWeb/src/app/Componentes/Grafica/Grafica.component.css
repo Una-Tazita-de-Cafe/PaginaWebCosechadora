@@ -1,0 +1,110 @@
+.div{
+    outline: 1px solid black;
+}
+.barras{
+    align-items: center;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 70%;
+    height: auto;
+    outline: 1px solid rgb(192, 192, 192);
+    background-color: #f3f3f3a2; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px; 
+}
+.separacion{
+    margin-left: 1rem;
+}
+.circulo{
+    width: 35%;
+    margin: 0.5rem;
+    height: auto;
+    outline: 1px solid rgb(192, 192, 192);
+    background-color: #f3f3f3a2; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px; 
+    
+}
+.tex1{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tex2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: initial;
+
+}
+.tex3{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: initial;
+
+}
+
+.disposicion{
+    display: flex;
+    margin-left:5%;
+    margin-right: 5%;
+   
+}
+.op1{
+    width: 100%;
+    
+    background-color: #f3f3f3a2; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px; 
+    outline: 1px solid rgb(192, 192, 192);
+}
+.op2{
+ margin-top: 10px;
+}
+.head{
+    display: flex;
+    margin-left:5%;
+    margin-right: 5%;
+}
+.for{
+    display: grid;
+    width: 25%;
+    height: 8rem;
+    margin: 10px;
+}
+.formato{
+    width: 30%;
+    height: 8rem;
+    margin: 10px;
+    
+    border-radius: 2px;
+    outline: 1px solid rgb(192, 192, 192);
+    background-color: #f3f3f3a2; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.datos{
+    width: 100%;
+    height: 8rem;
+    margin: 10px;
+    display: grid;
+    border-radius: 2px;
+    outline: 1px solid rgb(192, 192, 192);
+    background-color: #f3f3f3a2; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.d1{
+    display: flex;
+    margin: 10px 10px 0px 10px;
+}
+.Estadisticas{
+    font-size: 25px;
+    margin-right: 0.5rem;
+}
+.sepa{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.dos{
+    font-weight: 600;
+}

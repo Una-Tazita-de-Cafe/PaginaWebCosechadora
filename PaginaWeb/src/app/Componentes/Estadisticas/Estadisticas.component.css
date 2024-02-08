@@ -1,0 +1,165 @@
+.div{
+    border: 1px solid #ccc;
+    outline: 1px solid rgb(2, 2, 2);
+}
+.DatosProyecto{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.elementos{
+    margin-top: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #dddddd;
+    outline: 1px solid rgb(192, 192, 192);
+    background-color: #f3f3f3a2; 
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    height: auto;
+    display: grid;
+}
+.listado{
+    height:auto;
+    margin:  0.5rem 3rem 3rem 3rem;
+    background-color:#ffff;
+    border-radius: 2px ;
+    outline: 1px solid black;
+}
+.e3{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+.e2{
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+.e1{
+    width: 5%;
+    text-align: center;
+    
+}
+.seeker{
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 1rem;
+    width: 70%;
+    height: 3rem;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+   
+    background-color: #ffff;
+}
+.but{
+    display: flex;
+    width: 60%;
+}
+.b1{
+    margin: 0.5rem;
+}
+.barraBusqueda{
+    margin-left: 0.5rem;
+    width: 90%;
+}
+.Busqueda{
+    width: auto;
+    border-radius: 5%;
+}
+.bus{
+    display: flex;
+}
+.ElemeBusqueda{
+    
+    width: 45%;
+    display: flex;
+}
+.statistics{
+    width: 90%;
+    height: auto;
+    background-color: #FDF7F4;
+    border-radius: 12px;
+    outline: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+
+}
+.date{
+    width: 30%;
+    height: 12rem;
+    background-color: #FAF4F4;
+    border-radius: 12px ;
+    outline: 1px solid black;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.DateSta{
+
+margin-left: 5%;
+margin-right: 5%;
+}
+.Titulo{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-left: 0.5rem;
+}
+.Info{
+    display: flex;
+    padding: 10px;
+}
+@media(max-width:1289px){
+    .seeker{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+}
+@media(max-width:966px){
+    .seeker{
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 94%;
+    }
+    
+}
+@media(max-width:786px){
+   .seeker{
+        display: grid;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: auto;
+   }
+   .but{
+    width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+   }
+   .b1{
+    margin: 0.5rem;
+   }
+   .ElemeBusqueda{
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+   }
+}
+@media(max-width:453px){
+    .seeker{
+        margin-left: 2px;
+        margin-right: 2px;
+        width: auto;
+    }
+    
+}

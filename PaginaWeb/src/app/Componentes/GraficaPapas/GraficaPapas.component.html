@@ -1,0 +1,119 @@
+<div>
+    <div class="disposicion">
+        <div class="for">
+            <div class="op1">
+                <div class="tex1">
+                    Rancho
+                    <i class="fa-solid fa-hat-cowboy" style="color: #000;"></i>
+                </div>
+                <div class="tex2">
+                    {{Datos["rancho"]}}
+                </div>
+            </div>
+            <div class="op1 op2">
+                <div class="tex1">
+                    Parcela
+                    <i class="fa-solid fa-wheat-awn" style="color: #000;"></i>
+                </div>
+                <div class="tex2">
+                    {{Datos["parcela"]}}
+                </div>
+            </div>
+        </div>
+        <div class="for">
+                <div class="op1">
+                    <div class="tex1">
+                    Fecha de Inicio
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div class="tex2">
+                    {{Datos.fecha}}
+                </div>
+            </div>
+            <div class="op1 op2">
+                <div class="tex1">
+                    Fecha final
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div class="tex2">
+                    {{Datos.fecha}}
+                </div>
+            </div>
+        </div>
+        <div class="datos">
+            <div class="tex1">
+                Datos
+            </div>
+           <div class="d1">
+                <div class="col separacion">
+                    <div class="sepa">
+                        <div class="Estadisticas">Media: </div>
+                        <div class="Estadisticas dos">000</div>
+                     </div>
+                     <div class="sepa">
+                        <div class="Estadisticas">Moda: </div>
+                        <div class="Estadisticas dos">000</div>
+                     </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="sepa">
+                        <div class="Estadisticas">Promedio: </div>
+                        <div class="Estadisticas dos">000</div>
+                     </div>
+                     <div class="sepa">
+                        <div class="Estadisticas">De estandar: </div>
+                        <div class="Estadisticas dos">000</div>
+                     </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="sepa">
+                        <div class="Estadisticas">Media: </div>
+                        <div class="Estadisticas dos">000</div>
+                     </div>
+                     <div class="sepa">
+                        <div class="Estadisticas">Moda: </div>
+                        <div class="Estadisticas dos">000</div>
+                     </div>
+                    
+                </div>
+           </div>
+        </div>
+        <div class="formato">
+            <div class="tex1">
+                Cant. Observada
+            </div>
+            <div class="tex3">
+                {{Datos.cantidadObservada}}
+            </div>
+        </div>
+        <div class="for">
+            <div class="op1">
+                <div class="tex1">
+                    Dentro del rango
+
+                </div>
+                <div class="tex2">
+                    {{Datos.cantidadEnRango}}
+                </div>
+            </div>
+            <div class="op1 op2">
+                <div class="tex1">
+                    Fuera de rango
+                </div>
+                <div class="tex2">
+                    {{suma}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="disposicion">
+        <div class="barras">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="circulo">
+            <canvas id="myCircle"></canvas>
+        </div>
+    </div>
+</div>
